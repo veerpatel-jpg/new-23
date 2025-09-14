@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        input[type = "text"]{
+
+            border: 2px solid blue;
+        }
+        input[type = "password"]{
+            border: 2px solid green;
+        }
+
+        ul > li{
+            color: green;
+        }
+        h1 + p {
+            color: brown;
+        }
+        h3+p{
+            color: blueviolet;
+        }
+
+        a:hover{
+            color: chartreuse;
+            background-color: black;
+        }
+
+        ol li:nth-child(2){
+            background-color: deepskyblue;
+            font-style: italic;
+            text-decoration: underline;
+        } 
+
+        div:not(.class2){
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+
+
+
+         /* ol>li{
+            background-color: blue;
+         } */
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1> Advanced Selector for CSS</h1>
+    
+        <input type="text" placeholder="Type Input">
+        <br><br>
+        <input type="password" placeholder="Type Password">
+        <br><br>
+<hr>
+        <h1>Child Selector for CSS</h1>
+        <ul>
+            <li> First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ul>
+<br><br>
+        <hr>
+
+        <h1> Sibling Selector for CSS</h1>
+        <p> This is a sibling under above tag</p>
+        <h3> This is next tag to above </h3>
+        <p> This is paragraph 2</p>
+        <hr>
+    <h1>Pseudo Classes </h1>
+    <h2>Hover over hyperlinks using CSS</h2>
+    <a href="#home"> HOME</a> <br> <br>
+    <a href="about">About US</a> <br><br>
+    <a href="contact">Contact US</a>
+    <br>
+    <hr>
+    <br><br>
+    <h2> Nth Child Selector in CSS</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+    <br><br><hr>
+    <br><br>
+        <h2>Not Selector in CSS</h2>
+        <div class="class1">Div 1</div>
+        <br><br>
+        <div class="class2"> Div 2</div>
+
+        <br><br>
+        <hr>
+
+</body>
+</html>
