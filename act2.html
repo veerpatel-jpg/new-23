@@ -31,14 +31,23 @@
             text-decoration: underline;
         } 
 
-        div:not(.class2){
+        div:not(.class3){
             width: 100px;
             height: 100px;
             background-color: aqua;
         }
 
+        .class3::after{
+            color: burlywood;
+            font-size: 30px;
+            content:"😀😀😀😀😀😀😀";
+        }
+        
+        h2::first-letter{
+            font-size: 50px;
+            color: blue;
 
-
+        }
          /* ol>li{
             background-color: blue;
          } */
@@ -92,6 +101,11 @@
 
         <br><br>
         <hr>
+   <div class="class3"> Codingal </div>
+   <br><br><br>
+<hr>
+<h2 class="last"> This is the Last Tag for Today</h2>
+<br><br><br>
 
 </body>
 </html>
